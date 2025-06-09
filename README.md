@@ -4,7 +4,7 @@ This repository contains my submission for an advanced **Spark Structured Stream
 
 ---
 
-### 🧩 Business Problem
+### Business Problem
 
 As real-time data from IoT devices becomes more common, organizations need scalable solutions to process streaming data on the fly. This assignment demonstrates how **Spark Structured Streaming** can be used to process continuous streams of motion sensor data collected from smartphones and smartwatches, identify user activities, and generate useful aggregations and summaries in near real-time.
 
@@ -12,7 +12,7 @@ The data used simulated realistic use-cases where multiple devices collect orien
 
 ---
 
-### 📦 Dataset Overview
+### Dataset Overview
 
 We used a pre-loaded subset of the **Heterogeneity Human Activity Recognition (HHAR)** dataset, originally available from the UCI Machine Learning Repository.
 
@@ -24,7 +24,7 @@ We used a pre-loaded subset of the **Heterogeneity Human Activity Recognition (H
 
 ---
 
-### 🎯 Project Objectives
+### Project Objectives
 
 This project was designed to:
 
@@ -37,7 +37,7 @@ This project was designed to:
 
 ---
 
-### 🛠️ Solution Approach
+### Solution Approach
 
 **1. Initial Exploration**
 - Viewed the directory structure with `dbutils.fs.ls()`
@@ -69,7 +69,7 @@ Performed multiple transformations using:
 
 ---
 
-### 💡 Business Value
+### Business Value
 
 This assignment showcases key capabilities of Spark for real-world streaming use cases:
 
@@ -81,7 +81,7 @@ This assignment showcases key capabilities of Spark for real-world streaming use
 
 ---
 
-### 🚧 Challenges Encountered
+### Challenges Encountered
 
 - Waiting for streaming queries to initialize before querying outputs
 - Avoiding memory overload from `.append` mode with large streaming inputs
